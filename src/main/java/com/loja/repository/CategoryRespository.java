@@ -1,9 +1,9 @@
 package com.loja.repository;
 
-import com.loja.model.Venda;
+import com.loja.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface VendaRepository extends JpaRepository<Venda,Long> {
+public interface CategoryRespository extends JpaRepository<Category,Long> {
 }
